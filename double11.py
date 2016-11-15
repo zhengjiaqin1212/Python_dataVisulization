@@ -16,7 +16,6 @@ x_2016 = [1,7,16,40,65,87,96,150,250,425,480,540,600,660,720,780,840,900,960,102
 for index in range(len(y_2016)):
     plt.annotate(str(y_2016[index]),xy=(x_2016[index],y_2016[index]),xytext=(x_2016[index]-1,y_2016[index]+10))
 axe.plot(x_2016,y_2016,'ro-',label="money")
-# axe.scatter(x_2016,y_2016,color="#EE4000");
 plt.legend(loc='best')
 plt.xlabel("Time(s)")
 plt.ylabel("sum of business transactions");
